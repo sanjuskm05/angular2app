@@ -1,6 +1,72 @@
 body {
-  padding: 32px;
-  margin: 32px;
   font-family: "Roboto", Arial, sans-serif;
   font-size: 16px;
+  margin:0 0;
+}
+
+.header{
+	background-color:RGB(102,204,223);
+	padding:0 8px 0 0;	
+	
+}
+
+.headerLogoCol{
+  width:65%;
+  display: inline-block;
+}
+
+.navigation{
+  float: right;
+    position: relative;
+    display: inline-block;
+    
+}
+
+.headerButtonCol{
+  width:35%
+  display:inline-block;
+}
+
+.mod-header {
+    position: relative;
+    top: 0;
+    left: 0;
+    right: 0;
+    
+ }   
+
+.btn{
+    display: inline-block;
+    background: 0 0;
+    border: 1px solid rgba(0,0,0,.3);
+    padding: 8px 25px;
+    //text-transform: uppercase;
+    font-weight: 700;
+    font-size: 12px;
+    text-align: center;
+    letter-spacing: .5px;
+    border-radius: 10px;
+    white-space: nowrap;
+    text-decoration: none;
+    cursor: pointer;
+    color: #252525;
+}
+
+.btn-orange {
+    background: #FAB117;
+    border-color: transparent;
+    color: #FFF;
+}
+.btn-red {
+    background: #f84518;
+    border-color: transparent;
+    color: #FFF;
+}
+
+.flowImage{
+	border:white 1px solid;
+	text-align: center;
+}
+.flowImagesBorder{
+	border-top: RGB(102,204,223) 1px solid;
 }
